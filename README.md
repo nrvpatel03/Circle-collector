@@ -1,2 +1,2 @@
 # unit-4-game
-game mad using Jquery
+game made using Jquery
