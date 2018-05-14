@@ -15,19 +15,19 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <p id="mainTitle" class="h3 text-center font-weight-bold">Circle Collector Game</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <p id="rulesText" class="text-center font-weight-bold">
                     You will be given a random number at the beginning of the game.<br> 
-                    Each circle below has a random hidden value attached to it. <br> 
+                    Each circle below has a random hidden value attached to it. 
                     Each time you click a circle,that random value will be added to your total score. <br>  
-                    The goal is to match your score with the random number given. <br> 
+                    The goal is to match your score with the random number given. 
                     If your score exceeds the number, you lose. If they match, you win. <br>
-                    Click a circle to start playing and scroll down to see your score. 
+                    Click a circle to start playing.
                 </p>
             </div>
         </div>
@@ -50,8 +50,11 @@
                     </p>
                 </div>
             </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                <p id="totalScore" class="myscore">Your total score is: <span id="scoreNum"></span></p>
+            </div>
         </div>
-        <div class="row">
+        <div class="row imgrow">
             <div class="col-lg-3 col-md-3 col-sm-3 col-3">
                 <!--Image fluid makes images responsive in bootstrap-->
                 <img id="blue" class="img-fluid circle" value="0" src="assets/images/blueCircle.jpg">
@@ -67,9 +70,6 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                <p id="totalScore" class="myscore">Your total score is: <span id="scoreNum"></span></p>
-            </div>
         </div>
     </div>
 </body>
